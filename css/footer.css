@@ -1,0 +1,54 @@
+@media (min-width:320px){
+.foot_2022{
+    color: rgb(70, 70, 70);
+}
+.foot{
+  
+    background-color: white;
+   
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.foot_2022 > p{
+    text-align: center;
+   
+}
+.foot_team_memebers > ul{
+  
+    padding-left: 0;
+    text-align: center;
+   
+}
+.foot_team_memebers > ul li{
+padding-right: 5px;
+padding-left: 5px;
+ display: inline;
+
+ 
+    
+}
+
+.foot_team_memebers > ul li a{
+    text-decoration: none;
+    color: rgb(57, 146, 158);
+
+}
+.foot_team_memebers > ul li a:hover{
+  
+    color: rgb(164, 164, 164);
+
+}
+}
+@media (min-width:815px){
+    .foot{
+        display: flex;
+    }
+    .foot .foot_2022{
+        width: 47vw;
+    }
+    .foot .foot_team_memebers{
+        width: 50vw;
+    }
+}
