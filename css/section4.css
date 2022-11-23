@@ -70,7 +70,7 @@ th{
   font-size: 14 px;
   opacity: .4;
 }
-img{
+.img_img{
   height: 40px;
   width: 40px;
   border-radius: 50%;
@@ -88,11 +88,11 @@ td{
   width:auto;
 }
 
-.chart{
+/* .chart{
   background-color: blueviolet;
   height: 50%;
   padding-top: 0px;
-}
+} */
 
 @media (max-width: 1024px) {
   .section_four{
