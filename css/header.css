@@ -1,16 +1,29 @@
-#head{
+*{
+    margin: 0px;
+    padding:0px
+}
+html{
+    box-sizing: border-box;
+}
+
+header{
     width: 100%;
-    height: 4vw;
+    height: 350px;
+    background-color:#3f1e59;
 }
 
 #top-header{
     width: 100%;
-    height: 4vw;
-    background-color: #3f1e59;
+    height: 70px;
+    
+    border-bottom: 1px solid gray;
 }
 
 #bottom-header{
     width: 100%;
-    height: 8vw;
-    background-color: #3f1e59;
+    height: 280px;
+ 
 }
+/* #bh-h4{
+    margin: 0;
+} */
