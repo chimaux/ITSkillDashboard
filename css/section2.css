@@ -1,0 +1,53 @@
+#section-2-div{
+    background-color: inherit;
+    color: black;
+    height: 400px;
+    width: 95%;
+    margin: 2% auto;
+    display: flex;
+    justify-content: space-between;
+}
+#section-2-divvy{
+    width: 60%;
+    background-color: white;
+    border-radius: 10px;
+}
+#section-2-divvx{
+    width: 35%;
+    margin-left: 2.5%;
+    border-radius: 10px;
+    background-color: white;
+}
+#section-2-div-fl{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5%;
+}
+#section-2-innerdiv{
+    background-color: rgb(219, 219, 219);
+    border: 1px solid silver;
+    margin-left: 1.5%;
+    width: 30%;
+    border-radius: 10px;
+    padding: 2%;
+    
+
+}
+#section-2-innerdiv > legend{
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+span{
+    color:gray;
+}
+
+#select-years{
+    border: none;
+    cursor: pointer;
+    
+}
+
+.select-2-p> option{
+    width: 100%;
+    
+}
