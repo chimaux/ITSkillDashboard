@@ -1,23 +1,81 @@
 .section3{
     width: 100vw;
-}
-.section3_first{
-    width: 90vw;
-    height: 500px;
-    background-color: white;
-    margin: 20px auto 0 auto;
-    padding: 20px;
     
 }
-.section3_first_b{
-    display: flex;
-    margin-top: 20px;
+.section3_first{
+    width: 50vw;
+    height: auto;
+    /* background-color: rgb(197, 33, 33); */
+ 
 }
 .section3_first_a{
+    /* background-color: deeppink; */
+    margin-bottom: 20px;
+}
+
+.parent_sales{
+    width:90vw;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 3px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.facebook_50up{
+    margin-left:25px;
+    background-color: #6dcba3;
+    color: white;
+    
+    
+    border-radius: 1px;
+}
+
+.sales_by_social{
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    margin: 0 auto;
+    margin-top: 20px;
+    /* background-color: green; */
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(222, 222, 226);
+
+}
+.facebook_overhead{
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: red; */
+    width: 65vw;
+   
+}
+.section3_second{
+    /* background-color: aqua; */
+    
+}
+.dollar_money{
+    text-align: center;
+}
+
+.section3_first_b{
+    display: flex;
+    margin-bottom: 10px;
+    margin-right: 30px;
+}
+.fbnumbers_sale{
+    color: rgb(27, 26, 26);
+}
+.fbnumbers_like{
+    color: rgb(148, 148, 148);
+    margin-top: 5px;
+}
+.face_book_numbers{
   
 }
 .first_b_two{
     margin-left:10px;
+    width: auto;
+
+    /* background-color: yellow; */
 }
 .face_book_ads{
     color: rgb(27, 26, 26);
@@ -37,6 +95,10 @@
     background-color: #776acf;
     padding: 4px;
 }
+.monthlyman{
+    display: none;
+    background-color: white;
+}
 .first_b_one > i{
   color: white;
   height: auto;
@@ -44,9 +106,13 @@
 }
 .first_a_child{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .first_a_child > h3{
     font-weight: 200;
+    font-size: 18px;
     color: rgb(44, 44, 44);
+}
+.span_monthly{
+    color: rgb(162, 160, 160);
 }
