@@ -1,0 +1,16 @@
+#head{
+    width: 100%;
+    height: 4vw;
+}
+
+#top-header{
+    width: 100%;
+    height: 4vw;
+    background-color: #3f1e59;
+}
+
+#bottom-header{
+    width: 100%;
+    height: 8vw;
+    background-color: #3f1e59;
+}
