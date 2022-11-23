@@ -31,9 +31,9 @@
 .table_container{
   background-color: white;  
 }
-table{
-  width:max-content;
+.mytable{
   width: 100%;
+  /* width: auto; */
   border-collapse: separate;
   border-spacing: 0 15px;
 
@@ -87,6 +87,7 @@ td{
 .container{
   width:auto;
 }
+
 .chart{
   background-color: blueviolet;
   height: 50%;
