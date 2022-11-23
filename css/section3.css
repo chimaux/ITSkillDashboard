@@ -1,0 +1,52 @@
+.section3{
+    width: 100vw;
+}
+.section3_first{
+    width: 90vw;
+    height: 500px;
+    background-color: white;
+    margin: 20px auto 0 auto;
+    padding: 20px;
+    
+}
+.section3_first_b{
+    display: flex;
+    margin-top: 20px;
+}
+.section3_first_a{
+  
+}
+.first_b_two{
+    margin-left:10px;
+}
+.face_book_ads{
+    color: rgb(27, 26, 26);
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.face_book_shoes{
+    color: rgb(148, 148, 148);
+}
+.first_b_one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 2px;
+    background-color: #776acf;
+    padding: 4px;
+}
+.first_b_one > i{
+  color: white;
+  height: auto;
+ 
+}
+.first_a_child{
+    display: flex;
+    justify-content: space-around;
+}
+.first_a_child > h3{
+    font-weight: 200;
+    color: rgb(44, 44, 44);
+}
