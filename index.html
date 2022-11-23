@@ -48,10 +48,10 @@
               ></lottie-player>
             </div>
             <div class="chart">
-              <canvas></canvas>
+              <canvas id="mychart"></canvas>
             </div>
           </div>
-          
+
           <div class="second_div">
             <div class="text_div">
               <div class="top_left">Recent Orders</div>
@@ -59,7 +59,7 @@
             </div> 
             <div class="table_container">
             <div class="container">
-            <table>
+            <table class="mytable">
                 <tr>
                   <th>Customer</th>
                   <th>Product Name</th>
@@ -72,7 +72,7 @@
                 <tr>
                   <td>
                     <div class="image">
-                      <div><img src="/eyJidWNrZXQiOiJhbGlnbmFibGV3ZWItcHJvZHVjdGlvbiIsImtleSI6ImJ1c2luZXNzZXMvbG9nb3Mvc3F1YXJlLzI2MTQzOTgvMTUyMTE2NDYxOV9ibG9iIiwiZWRpdHMiOnt9fQ==.jpeg" alt=""></div> 
+                      <div><img class="img_img" src="./images/table image 1.jpeg""></div> 
                       <div>Neal Matthews</div>
                     </div>
                   </td>
@@ -86,7 +86,7 @@
             <tr>
               <td>
                 <div class="image">
-                  <div><img src="/table image 2.png" alt=""></div>
+                  <div><img class="img_img" src="./images/table image 2.png" alt=""></div>
                   <div>Connie Franco</div>
                 </div>
               </td>
@@ -100,7 +100,7 @@
             <tr>
               <td>
                 <div class="image">
-                  <div><img src="/table image 3.webp" alt=""></div>
+                  <div><img class="img_img" src="./images/table image 3.webp" alt=""></div>
                   <div>Paul Reynolds</div>
                 </div>
               </td>
@@ -114,7 +114,7 @@
             <tr>
               <td>
                 <div class="image">
-                  <div><img src="/table image 4.jpeg" alt=""></div>
+                  <div><img class="img_img" src="./images/table image 4.jpeg" alt=""></div>
                   <div>Ronald patton</div>
                 </div>
               </td>
@@ -128,7 +128,7 @@
             <tr>
               <td>
                 <div class="image">
-                  <div><img src="/table image 5.jpeg" alt=""></div>
+                  <div><img class="img_img" src="/images/table image 5.jpeg" alt=""></div>
                   <div>Adella Perez</div>
                 </div>
               </td>
@@ -163,13 +163,22 @@
         </div>
       </footer>
     </main>
-    <script
-    src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.0.1/chart.min.js"
-    integrity="sha512-tQYZBKe34uzoeOjY9jr3MX7R/mo7n25vnqbnrkskGr4D6YOoPYSpyafUAzQVjV6xAozAqUFIEFsCO4z8mnVBXA=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.0.1/chart.min.js" integrity="sha512-tQYZBKe34uzoeOjY9jr3MX7R/mo7n25vnqbnrkskGr4D6YOoPYSpyafUAzQVjV6xAozAqUFIEFsCO4z8mnVBXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+    <script>
+      let mychart = document.getElementById('mychart').getContext('2d');
+
+      let barchart = new Chart(mychart,{
+        type : 'Bar',
+        data: {
+          labels : ['Canada','Russia','Brazil','U.S','Egypt'],
+          dataset: [{
+            label: 'series'
+          }]
+
+        }
+      })
+    </script>
   </body>
 </html>
