@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="./css/universal.css" />
   </head>
 
-
   <body>
     <main>
       <header class="head">
@@ -21,14 +20,65 @@
       </header>
 
       <section class="section2">
-        <!--Section 2 goes in here-->
+        <!-------Section 2 goes in here--------------------------------------------------------------------------------------------------->
+        <div id="section-2-div">
+          <div id="section-2-divvy">
+            <div id="section-2-div-fl">
+              <p class="section-2-p">Invoice Overview</p>
+              <p class="section-2-p">
+                <b>Sort By:</b
+                ><select name="years" id="select-years">
+                  <option value="yearly"><span>Yearly</span></option>
+                  <option value="monthly">Monthly</option>
+                  <option value="Weekly">Weekly</option>
+                  <option value="Today">Today</option>
+                </select>
+              </p>
+            </div>
+            <div id="section-2-innerdiv">
+              <p>Total Revenue:</p>
+              <legend><b>$9,542,00</b></legend>
+              <span>From Jan 20, 2022to July, 2...</span><br />
+              <div width="100%; height: 100px;">
+                <canvas  id="myLine"></canvas>
+              </div>
+            </div>
+          </div>
+          <div id="section-2-divvx">PIE CHART WILL BE INSERTED HERE!</div>
+        </div>
+        
       </section>
+
       <section class="section3">
         <!--Section 3 goes in here-->
+        <!--Chima section-->
       </section>
 
       <!-- --------------------------------------------------------------------------------------------------------------------- -->
 
+<<<<<<< HEAD
+      <!--Section 4 goes in here-->
+      <section class="section_four">
+        <div class="first_div">
+          <div class="text_div">
+            <div class="top_left">Sales Revenue</div>
+            <div class="top_right">Year: 2022</div>
+          </div>
+          <div class="map">
+            <lottie-player
+              src="https://assets4.lottiefiles.com/packages/lf20_1epnq1b8.json"
+              background="transparent"
+              speed="1"
+              style="width: 400px; height: 300px"
+              loop
+              autoplay
+            ></lottie-player>
+          </div>
+        </div>
+      </section>
+      <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+      <footer class="foot">
+=======
         <!--Section 4 goes in here-->
         <section class="section_four">
           <div class="first_div">
@@ -145,12 +195,56 @@
         </section>
 
 <!-- ----------------------------------------------------------------------------------------------------------------------------------- -->
-      <footer class="foot">
+      <!-- <div style="width:100vw; height:500px; background-color:yellow;"> -->
+
+      </div>
+<footer class="foot">
+>>>>>>> 4b7cc37e116e6b65713216d93fa1efeb7c850f1a
         <!--footer goes in here-->
+        <div class="foot_2022"><p>2022 &#169; Tech Warriors V3</p></div>
+
+        <div class="foot_team_memebers">
+<ul>
+  <li><a href="#">Chima</a></li>
+  <li><a href="#">Dedayo</a></li>
+  <li><a href="#">Pelumi</a></li>
+  <li><a href="#">Israel</a></li>
+</ul>
+        </div>
       </footer>
     </main>
+<<<<<<< HEAD
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
-
+  <script>
+    let label = [0, 2, 6, 8, 10, 12]
+    let itemdata = [2, 36, 22, 30, 12, 38]
+    const data = {
+      labels: label,
+      datasets: [{
+        data: itemdata,
+        pointRadius: 1,
+        borderColor: "#159947"
+      }]
+    }
+    const config = {
+    type: 'line',
+    data: data,
+    options:{
+      plugins:{
+        legend:{
+          display: false
+        }
+       
+      }
+    }
+      
+    };
+    const chart = new Chart(document.getElementById("myLine"),
+    config
+    )
+  </script>
+=======
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.0.1/chart.min.js" integrity="sha512-tQYZBKe34uzoeOjY9jr3MX7R/mo7n25vnqbnrkskGr4D6YOoPYSpyafUAzQVjV6xAozAqUFIEFsCO4z8mnVBXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
     <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
@@ -168,31 +262,6 @@
           }]
         }
       })
-
-      <script> -->
-        <script>
-var xValues = ["Canada", "Russia", "Brazil", "US", "Egypt"];
-var yValues = [100, 1350, 1600, 1270, 1500];
-var barColors = ["#7b68ee", "#7b68ee","#7b68ee","#7b68ee","#7b68ee"];
-
-new Chart("myChart", {
-  type: "horizontalBar",
-  data: {
-    labels: xValues,
-    datasets: [{
-      backgroundColor: barColors,
-      data: yValues
-    }]
-  },
-  options: {
-    legend: {display: false},
-    title: {
-      display: true,
-      text: ""
-    }
-  }
-});
-</script>
-    
+    </script>
   </body>
 </html>
