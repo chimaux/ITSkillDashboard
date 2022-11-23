@@ -1,10 +1,11 @@
 .section_four{
-    background-color: black;
+    /* background-color: black; */
     padding  : 2%;
-    /* width: 100vw; */
     display: flex;
+    flex-direction: row;
     justify-content: center;
     gap: 1%;
+
 }
 .first_div{
     display: flex;
@@ -13,14 +14,14 @@
     width: 30%;
     height: 500px;
     padding: 1%;
-    /* align-items: center; */
-    /* padding: 1%; */
+    box-shadow: 1px 1px 1px 1px #8888884d;
 }
 .second_div{
   background-color: white;
     width: 70%;
     height: 500px;
     padding: 1%;
+    box-shadow: 1px 1px 1px 1px #8888884d;
 }
 .text_div{
     display: flex;
@@ -33,15 +34,13 @@
 }
 .mytable{
   width: 100%;
-  /* width: auto; */
   border-collapse: separate;
   border-spacing: 0 15px;
-
 }
 
 tr{
   border: 1px solid;
-  background-color: #c7ddf96e;
+  background-color: #c5c5c543;
   height: 60px;
 }
 
@@ -88,31 +87,35 @@ td{
   width:auto;
 }
 
-/* .chart{
-  background-color: blueviolet;
-  height: 50%;
-  padding-top: 0px;
-} */
-
 @media (max-width: 1024px) {
   .section_four{
     padding  : 2%;
-    /* width: 100vw; */
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 1%;
+    column-gap: 60%;
 }
-.container{
-  background-color: white; 
-  width:max-content; 
+.first_div{
+  width: 100%;
 }
+
 .text_div{
   display: flex;
-  flex-direction: column;
   align-items: center;
 }
 .table_container{
-  width: max-content;  
+  overflow-y: scroll;
 }
+.second_div{
+width: 100%;
+padding: 5%;
+
+}
+.mytable{
+  width: 180%;
+  border-collapse: separate;
+  border-spacing: 0 15px;
+}
+
 }
