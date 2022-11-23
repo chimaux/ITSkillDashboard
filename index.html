@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="./css/footer.css" />
     <link rel="stylesheet" href="./css/universal.css" />
   </head>
+
+
   <body>
     <main>
       <header id ="head">
@@ -35,13 +37,135 @@
         <!--Section 3 goes in here-->
       </section>
 
-      <section class="section4">
-        <!--Section 4 goes in here-->
-      </section>
+      <!-- --------------------------------------------------------------------------------------------------------------------- -->
 
+        <!--Section 4 goes in here-->
+        <section class="section_four">
+          <div class="first_div">
+            <div class="text_div">
+              <div class="top_left">Sales Revenue</div>
+              <div class="top_right">Year: 2022 </div>
+            </div>
+            <div>
+              <lottie-player
+                src="https://assets4.lottiefiles.com/packages/lf20_1epnq1b8.json"
+                background="transparent"
+                speed="1"
+                style="width: 350px; height: 290px"
+                loop
+                autoplay
+              ></lottie-player>
+            </div>
+            <div class="chart">
+              <canvas></canvas>
+            </div>
+          </div>
+          
+          <div class="second_div">
+            <div class="text_div">
+              <div class="top_left">Recent Orders</div>
+              <div class="top_right">Monthly</div>
+            </div> 
+            <div class="table_container">
+            <div class="container">
+            <table>
+                <tr>
+                  <th>Customer</th>
+                  <th>Product Name</th>
+                  <th>Order ID</th>
+                  <th>Amount</th>
+                  <th>Stock</th>
+                  <th>Trend</th>
+                  <th>Action</th>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="image">
+                      <div><img src="/eyJidWNrZXQiOiJhbGlnbmFibGV3ZWItcHJvZHVjdGlvbiIsImtleSI6ImJ1c2luZXNzZXMvbG9nb3Mvc3F1YXJlLzI2MTQzOTgvMTUyMTE2NDYxOV9ibG9iIiwiZWRpdHMiOnt9fQ==.jpeg" alt=""></div> 
+                      <div>Neal Matthews</div>
+                    </div>
+                  </td>
+                  <td>Office Chairs</td>
+                  <td>#526552</td>
+                  <td>$210.00</td>
+                  <td><iconify-icon class="iconify" icon="fluent-mdl2:checkbox-indeterminate" width="15"></iconify-icon>Available</td>
+                  <td>LINE CHART</td>
+                  <td><iconify-icon icon="charm:menu-meatball"></iconify-icon></td>
+                </tr>
+            <tr>
+              <td>
+                <div class="image">
+                  <div><img src="/table image 2.png" alt=""></div>
+                  <div>Connie Franco</div>
+                </div>
+              </td>
+              <td>Black T-shirt</td>
+              <td>#746648</td>
+              <td>$150.00</td>
+              <td><iconify-icon class="iconify" icon="fluent-mdl2:checkbox-indeterminate" width="15"></iconify-icon>Available</td>
+              <td>LINE CHART</td>
+              <td><iconify-icon icon="charm:menu-meatball"></iconify-icon></td>
+            </tr>
+            <tr>
+              <td>
+                <div class="image">
+                  <div><img src="/table image 3.webp" alt=""></div>
+                  <div>Paul Reynolds</div>
+                </div>
+              </td>
+              <td>Smart Watch</td>
+              <td>#125635</td>
+              <td>$260.00</td>
+              <td><iconify-icon class="iconify1" icon="fluent-mdl2:checkbox-indeterminate" width="15"></iconify-icon>Out of Stock</td>
+              <td>LINE CHART</td>
+              <td><iconify-icon icon="charm:menu-meatball"></iconify-icon></td>
+            </tr>
+            <tr>
+              <td>
+                <div class="image">
+                  <div><img src="/table image 4.jpeg" alt=""></div>
+                  <div>Ronald patton</div>
+                </div>
+              </td>
+              <td>Apple Phone</td>
+              <td>#236521</td>
+              <td>$170.00</td>
+              <td><iconify-icon class="iconify" icon="fluent-mdl2:checkbox-indeterminate" width="15"></iconify-icon>Available</td>
+              <td>LINE CHART</td>
+              <td><iconify-icon icon="charm:menu-meatball"></iconify-icon></td>
+            </tr>
+            <tr>
+              <td>
+                <div class="image">
+                  <div><img src="/table image 5.jpeg" alt=""></div>
+                  <div>Adella Perez</div>
+                </div>
+              </td>
+              <td>New Shoes</td>
+              <td>#236521</td>
+              <td>$240.00</td>
+              <td><iconify-icon class="iconify1" icon="fluent-mdl2:checkbox-indeterminate" width="15"></iconify-icon>Out Of Stock</td>
+              <td>LINE CHART</td>
+              <td><iconify-icon icon="charm:menu-meatball"></iconify-icon></td>
+            </tr>
+          </table>
+            </div>
+          </div>
+
+        </section>
+
+<!-- ----------------------------------------------------------------------------------------------------------------------------------- -->
       <footer class="foot">
- <!--Section 4 goes in here-->
+        <!--footer goes in here-->
       </footer>
     </main>
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.0.1/chart.min.js"
+    integrity="sha512-tQYZBKe34uzoeOjY9jr3MX7R/mo7n25vnqbnrkskGr4D6YOoPYSpyafUAzQVjV6xAozAqUFIEFsCO4z8mnVBXA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
   </body>
 </html>
