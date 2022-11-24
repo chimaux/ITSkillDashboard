@@ -7,8 +7,12 @@
     display: flex;
     justify-content: space-between;
 }
+
+.section-2-p{
+    margin-left: 2%;
+}
 #section-2-divvy{
-    width: 60%;
+    width: 63%;
     background-color: white;
     border-radius: 10px;
 }
@@ -18,19 +22,35 @@
     border-radius: 10px;
     background-color: white;
 }
-#section-2-div-fl{
+.section-2-divvx-fl{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15%;
+    border-bottom: 1px solid silver;
+}
+
+.section-2-div-fl, .section-2-1-div-fl{
     display: flex;
     justify-content: space-between;
     padding: 1.5%;
 }
+
 #section-2-innerdiv{
     background-color: rgb(219, 219, 219);
     border: 1px solid silver;
     margin-left: 1.5%;
-    width: 30%;
+    width: 35%;
     border-radius: 10px;
     padding: 2%;
-    
+}
+
+#section-2-innerdiv > p{
+    padding-bottom: 5%;
+    font-size: 15px;
+}
+
+#section-2-innerdiv-id{
+    width: 90%;
 
 }
 #section-2-innerdiv > legend{
@@ -41,6 +61,16 @@ span{
     color:gray;
 }
 
+#canvas-span{
+    background-color: red;
+    color: white; 
+    padding: 1.2%;
+    border-radius: 5px;
+    margin-left: 70%;
+    margin-top: 20%;
+}
+
+
 #select-years{
     border: none;
     cursor: pointer;
@@ -50,4 +80,11 @@ span{
 .select-2-p> option{
     width: 100%;
     
+}
+
+
+
+/* -------------------------------------------------------------------------------------------------------------------- */
+@media(max-width: 375px){
+
 }
