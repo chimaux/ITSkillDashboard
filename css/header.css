@@ -10,6 +10,7 @@ header{
     width: 100%;
     height: 400px;
     background-color:#3f1e59;
+    overflow: hidden;
 }
 
 #top-header{
@@ -18,7 +19,8 @@ header{
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid gray;
-    
+    background-color:#3f1e59;
+    position: fixed;
 }
 #top-header-left{
     display: flex;
@@ -75,9 +77,41 @@ header{
     height: 83%;
 }
 
+#content {
+    /* width: 15%; */
+    position: absolute;
+    top: 100px;
+    right: 10px;
+    display: none;
+    height: 150px;
+    
+    background-color: #ffffff;
+    padding-top: 1px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+    color: #1a1919;
+    /* margin-top: 10px; */
+}
+  #content h6{
+    margin: 8px 10px 10px 0px; 
+  }
+
+  #inner-content div{
+    margin: 6px 0;
+    padding-top: 5px;
+  }
+  #top-bar>.e-input:checked ~ #content{
+  display: block;
+  }
+
 /* bottom-header */
 #bottom{
 height: 300px;
+overflow: hidden;
+width: 100%;
+
 }
 
 #bottom-header{
@@ -145,6 +179,15 @@ height: 300px;
     color: rgba(255,255,255,.3);;
 }
 
+.round-shape-arrow{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgb(63 30 89);
+    position: absolute;
+    right: 644px;
+    top: 380px;
+}
 
 /* @media screen (){
     
