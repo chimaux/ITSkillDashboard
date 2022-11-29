@@ -11,6 +11,8 @@ header{
     height: 400px;
     background-color:#3f1e59;
     overflow: hidden;
+    /* position: fixed;
+    top: 0; */
 }
 
 #top-header{
@@ -111,7 +113,8 @@ header{
 height: 300px;
 overflow: hidden;
 width: 100%;
-
+position: sticky;
+top: 80px;
 }
 
 #bottom-header{
