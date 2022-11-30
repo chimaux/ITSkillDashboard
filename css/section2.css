@@ -29,6 +29,17 @@
     border-bottom: 1px solid silver;
 }
 
+.section-2-divvx-fl-p{
+    padding:0.5%;
+    width: 12%;
+    border-radius: 15%;
+    color: white;
+}
+
+.this-div{
+    margin-left: -1.6%;
+}
+
 .section-2-div-fl, .section-2-1-div-fl{
     display: flex;
     justify-content: space-between;
@@ -85,6 +96,101 @@ span{
 
 
 /* -------------------------------------------------------------------------------------------------------------------- */
-@media(max-width: 375px){
+@media(max-width: 1024px){
+    .section-2-divvx-fl{
+        overflow-x: auto;
+    }
+    #section-2-div{
+        width: 96.5%;
+    }
+}
+
+@media (max-width: 967px) {
+    #section-2-div{
+        display: grid;
+        width: 98%;
+        margin-left: 1.6%;
+        margin-bottom: 103.3%;
+    }
+    #section-2-divvx{
+        width: 84.2vw;
+        padding: 5%;
+    }
+    #section-2-divvy{
+        width: 83.8vw;
+        margin-bottom: 2%;
+        margin-left: 2.8%;
+        padding: 5%;
+        
+    }
+    .section-2-divvx-fl p{
+       font-size: 1.15rem;
+    }
+    .section-2-div-fl p{
+      font-size: 1.15rem;
+    }
+    #select-years{
+        font-size: 1.15rem;
+    }
+    #barChart{
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 512px) {
+    #barChart{
+        overflow-x: scroll;
+    }
+
+    #section-2-innerdiv > legend{
+        font-size: 1.2rem;
+    }
+
+    #canvas-span{
+        margin-left: 40px;
+    }
+
+    @media (max-width: 468px) {
+        .section-2-divvx-fl p{
+            font-size: 1rem;
+         }
+         .section-2-div-fl p{
+           font-size: 1rem;
+         }
+         #select-years{
+             font-size: 1rem;
+         }
+    }
+}
+
+@media (max-width:422px) {
+    .section-2-divvx-fl p{
+        font-size: 0.9rem;
+     }
+     .section-2-div-fl p{
+       font-size: 0.9rem;
+     }
+     #select-years{
+         font-size: 0.9rem;
+     }
+
+     #section-2-div{
+        margin-bottom: 95%;
+     }
+}
+
+@media (max-width: 388px) {
+    #section-2-div{
+        margin-bottom: 90%;
+     }
+     .section-2-divvx-fl p{
+        font-size: 0.75rem;
+     }
+     .section-2-div-fl p{
+       font-size: 0.75rem;
+     }
+     #select-years{
+         font-size: 0.75rem;
+     }
 
 }
