@@ -1,4 +1,4 @@
-# ITSkillDashboard
+# ITSkillDashboard suspended/uncompleted
 
 This is a single page template design  and it is also a collaborative project. We used HTML,CSS, javascript and Chart.js in this project.
 We were unable to complete this project because we worked collaboratively using github on the same html page. The challenge came from 
